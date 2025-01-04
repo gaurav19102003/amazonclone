@@ -1,0 +1,173 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.iam{
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  
+}
+
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  background-color: #f4f4f4;
+  color: #333;
+  background-color: #333;
+}
+nav{
+  margin-top: 0px;
+  margin-left: 20px;
+  justify-content: space-evenly;
+  font-size: 15px;
+
+}
+header {
+  background: #02162c;
+  color: white;
+  padding: 20px;
+  text-align: center;
+  
+}
+
+header h1 {
+  margin-bottom: 10px;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+}
+.about{
+  background-color: #1c4a7a;
+}
+
+nav ul li {
+  display: inline;
+  margin-right: 15px;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+}
+
+nav ul li a:hover {
+  text-decoration: underline;
+}
+
+section {
+  padding: 20px;
+  margin: 20px;
+  background: white;
+  border-radius: 8px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.about-container {
+  display: flex;
+  align-items: flex-start; /* Aligns items to the top */
+  justify-content: space-between; /* Adds space between the text and image */
+}
+
+.about-text {
+  max-width: 60%; /* Adjust this as needed */
+}
+
+.profile-pic {
+ 
+  border-radius:50%; /* Makes it circular */
+  
+  float:right;
+}
+
+
+
+
+h2 {
+  border-bottom: 2px solid #007bff;
+  padding-bottom: 10px;
+  margin-bottom: 20px;
+}
+
+h3 {
+  margin-top: 20px;
+}
+
+ul {
+  list-style-type: disc;
+  margin-left: 20px;
+}
+
+.blog-post {
+  margin-bottom: 20px;
+}
+
+.view-project {
+  background: #007bff;
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.view-project:hover {
+  background: #02162c;
+}
+
+footer {
+  text-align: center;
+  padding: 10px 0;
+  background: #02162c;
+  color: white;
+  position: relative;
+  bottom: 0;
+  width: 100%;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+label {
+  margin-top: 10px;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+  padding: 10px;
+  margin-top: 5px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+button[type="submit"] {
+  margin-top: 10px;
+  padding: 10px;
+  background: #02162c;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button[type="submit"]:hover {
+  background: #02162c;
+}
+
+/* Responsive Design */
+@media (max-width: 600px) {
+  nav ul li {
+      display: block;
+      margin-bottom: 10px;
+  }
+  
+  section {
+      margin: 10px;
+  }
+}
